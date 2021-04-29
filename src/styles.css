@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+  border: solid #ffff;
+}
+
+.container {
+  width: 50%;
+}
+form {
+  margin-top: 2em;
+}
+input {
+  background: rgb(255, 148, 114);
+  color: #ffff;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffff;
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+  font-size: larger;
+  color: #ffff;
+}
+
+.card-footer {
+  border: none;
+  background-color: transparent;
+  font-size: xx-large;
+}
