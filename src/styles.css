@@ -1,34 +1,75 @@
-
-.container {
-    background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
-    border: solid #ffff;
-    border-radius: 10%;
-    width: 50%;
-}
-form {
-  margin-top: 2em;
-}
-input {
-  background: rgb(255, 148, 114);
-  color: #ffff;
-}
-
-h1,
-h2,
-h3 {
+body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #ffff;
 }
-
-.card {
-  background-color: transparent;
-  border: none;
-  font-size: larger;
-  color: #ffff;
+.container {
+    background: radial-gradient(circle at 10% 20%, rgb(111, 231, 176) 0%, rgb(154, 198, 242) 100.2%);
+    border: solid #ffff;
+    border-radius: 5mm;
+    width: 75%;}
+form {
+  margin-top: 2em;
+}
+#city-input {
+  background: #ffff;
+}
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-.card-footer {
-  border: none;
-  background-color: transparent;
-  font-size: xx-large;
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  color: #ffff;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+.weather-app {
+  padding: 10px;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
